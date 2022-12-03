@@ -26,9 +26,10 @@ El papel de regalo es el símbolo * y para envolver un regalo se coloca el símb
 
 Como ves, el papel de regalo envuelve el string. Por arriba y por abajo, para no dejar ningún hueco, las esquinas también están cubiertas por el papel de regalo.
 
-![](https://imgur.com/a/itchLfd)
-
 [Reto](https://adventjs.dev/es/challenges/2022/1)
+
+![](https://i.imgur.com/gslEDEm.png)
+
 
 ## Reto #2: Nadie quiere hacer horas extra
 
@@ -51,5 +52,6 @@ Dado un año y un array con las fechas de los días festivos, devuelve el númer
 
     countHours(year, holidays) // 2 días -> 4 horas extra en el año
 
-
 [Reto](https://adventjs.dev/es/challenges/2022/2)
+
+![](https://i.imgur.com/CudofCJ.png)
