@@ -6,18 +6,8 @@ function distributeGifts(packOfGifts, reindeers) {
   let weightGifts = 0;
   let weightReindeers = 0;
 
-  const calculatorWeight = (arr,desc) => {
-    if (desc == 'gifts'){
-      arr.forEach((gift) => { return weightGifts += gift.length; });
-    }
-
-    if (desc == 'reindeers'){
-      arr.forEach((reindeer) => { return weightReindeers += (2 * reindeer.length); });
-    }
-  }
-
-  calculatorWeight(packOfGifts, 'gifts');
-  calculatorWeight(reindeers, 'reindeers');
+  packOfGifts.forEach((gift)=>{ weightGifts += gift.length; });
+  reindeers.forEach((reindeer)=>{ weightReindeers += reindeer.length*2; });
 
   return Math.trunc(weightReindeers/weightGifts)
 }
