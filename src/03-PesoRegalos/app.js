@@ -8,11 +8,11 @@ function distributeGifts(packOfGifts, reindeers) {
 
   const calculatorWeight = (arr,desc) => {
     if (desc == 'gifts'){
-      packOfGifts.forEach((gift) => { return weightGifts += gift.length; });  
+      arr.forEach((gift) => { return weightGifts += gift.length; });
     }
 
     if (desc == 'reindeers'){
-      reindeers.forEach((reindeer) => { return weightReindeers += (2 * reindeer.length); });
+      arr.forEach((reindeer) => { return weightReindeers += (2 * reindeer.length); });
     }
   }
 

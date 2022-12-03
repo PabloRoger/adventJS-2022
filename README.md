@@ -84,4 +84,4 @@ distributeGifts(packOfGifts, reindeers) // 2
 
 [Reto](https://adventjs.dev/es/challenges/2022/3)
 
-![](https://i.imgur.com/tZIdmhp.png)
+![](https://i.imgur.com/mnvICUt.png)
